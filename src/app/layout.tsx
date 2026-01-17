@@ -6,8 +6,12 @@ import { AuthProvider } from "../context/AuthContext"; // Context'i import ettik
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Nova CRM",
-  description: "Müşteri Yönetim Sistemi",
+  title: "Nova CRM | Müşteri Yönetim Paneli", // Tarayıcı sekmesinde görünecek isim
+  description: "İşletmenizi büyütmek için geliştirilmiş modern CRM ve finans yönetim sistemi.",
+  icons: {
+    icon: '/icon.jpg', 
+    apple: '/apple-icon.png',
+  },
 };
 
 export default function RootLayout({

@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Nova CRM - Modern İşletme Yönetim Paneli
 
-## Getting Started
+Nova CRM, küçük ve orta ölçekli işletmelerin müşteri ilişkilerini, finansal süreçlerini ve randevu takvimlerini yönetmeleri için geliştirilmiş, **Next.js 14** ve **Firebase** tabanlı tam kapsamlı bir SaaS (Software as a Service) uygulamasıdır.
 
-First, run the development server:
+## 🌍 Canlı Demo (Live Preview)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Projeyi canlı ortamda test etmek için aşağıdaki bağlantıya tıklayabilirsiniz:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+👉 **[Canlı Demo Uygulamasına Git](https://nova-crm-khaki.vercel.app/)**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🔑 Test Giriş Bilgileri
+Admin paneline erişmek ve tüm özellikleri (CRUD işlemleri, Dashboard, Takvim) test etmek için aşağıdaki bilgileri kullanabilirsiniz:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Alan | Değer |
+| :--- | :--- |
+| **E-posta** | `admin@novacrm.com` |
+| **Şifre** | `122112` |
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🔥 Özellikler
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Bu proje, modern web teknolojilerinin en güncel pratikleri kullanılarak geliştirilmiştir:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **🔐 Güvenli Kimlik Doğrulama:** Firebase Auth ile güvenli giriş sistemi.
+- **📊 İnteraktif Dashboard:** Anlık müşteri sayıları, günlük randevular ve Recharts ile görselleştirilmiş yıllık ciro grafikleri.
+- **👥 Müşteri Yönetimi (CRUD):**
+  - Müşteri ekleme, düzenleme, silme ve detay görüntüleme.
+  - Anlık filtreleme ve arama özelliği.
+  - Müşteri detay sayfasında ilişkili randevu ve fatura geçmişi.
+- **📅 Akıllı Takvim:**
+  - FullCalendar entegrasyonu.
+  - Müşteri bazlı randevu oluşturma ve saat aralığı belirleme.
+- **💰 Finans & Muhasebe:**
+  - Gelir takibi, fatura oluşturma.
+  - Bekleyen/Ödenen durum yönetimi ve "Tek Tıkla Tahsilat" özelliği.
+- **⚙️ Ayarlar:** Profil güncelleme ve şifre değiştirme işlemleri.
+- **📱 Responsive Tasarım:** Mobil ve masaüstü uyumlu, Tailwind CSS ile şık arayüz.
 
-## Deploy on Vercel
+## 🛠️ Kullanılan Teknolojiler
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Frontend:** [Next.js 14 (App Router)](https://nextjs.org/), [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/), [Lucide Icons](https://lucide.dev/)
+- **Backend & Database:** [Firebase](https://firebase.google.com/) (Firestore, Authentication)
+- **Charts:** [Recharts](https://recharts.org/)
+- **Calendar:** [FullCalendar](https://fullcalendar.io/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 Kurulum ve Çalıştırma
+
+Bu projeyi kendi bilgisayarınızda çalıştırmak isterseniz:
+
+1. **Repoyu Klonlayın:**
+   ```bash
+   git clone [https://github.com/KULLANICI_ADIN/nova-crm.git](https://github.com/KULLANICI_ADIN/nova-crm.git)
+   cd nova-crm
